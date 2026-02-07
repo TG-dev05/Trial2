@@ -1,0 +1,2 @@
+INSERT INTO students (student_num,age)
+VALUES("54",7);

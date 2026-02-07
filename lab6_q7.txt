@@ -1,0 +1,7 @@
+SELECT * FROM course
+LEFT OUTER JOIN registration
+ON course.course_code = registration.course_code
+UNION
+SELECT * FROM course
+RIGHT OUTER JOIN registration
+ON course.course_code = registration.course_code;

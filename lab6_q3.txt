@@ -1,0 +1,4 @@
+ALTER TABLE registration
+ADD CONSTRAINT pk_registration PRIMARY KEY (registration_no),
+ADD CONSTRAINT fk_course_code FOREIGN KEY (course_code) REFERENCES course(course_code),
+ADD CONSTRAINT fk_student_no FOREIGN KEY (student_no) REFERENCES students(student_no);
