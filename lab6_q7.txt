@@ -5,3 +5,5 @@ UNION
 SELECT * FROM course
 RIGHT OUTER JOIN registration
 ON course.course_code = registration.course_code;
+
+THIS IS THE CHANGE TO THE REPOSITORY.
