@@ -1,1 +1,4 @@
 INSERT INTO course VALUES ("COMS2004","Introduction to Computing","B","Refilwe");
+
+
+THIS IS THE SECOND CHANGE.
